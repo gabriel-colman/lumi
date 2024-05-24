@@ -9,20 +9,21 @@ O desafio consiste em desenvolver uma aplicação capaz de:
 2. Organizar esses dados em um banco de dados PostgreSQL.
 3. Apresentar esses dados em uma aplicação web, por meio de uma API.
 
+```bash
 ## Estrutura do Projeto
 /projeto
-/client
-/src
-App.js # Componente principal da aplicação React
-index.js # Ponto de entrada da aplicação React
-/prisma
-schema.prisma # Definição do esquema do banco de dados Prisma
-extract_data.py # Script Python para extração de dados das faturas
-server.js # Servidor Node.js usando Express
-package.json # Definições de dependências e scripts NPM
-server.test.js # Testes unitários para o servidor usando Jest
+ /client
+  /src
+   App.js # Componente principal da aplicação React
+   index.js # Ponto de entrada da aplicação React
+  /prisma
+   schema.prisma # Definição do esquema do banco de dados Prisma
+ extract_data.py # Script Python para extração de dados das faturas
+ server.js # Servidor Node.js usando Express
+ package.json # Definições de dependências e scripts NPM
+ server.test.js # Testes unitários para o servidor usando Jest
 .env # Configurações de ambiente (ex. DATABASE_URL) 
-
+ ``` 
 
 
 ## Tecnologias Utilizadas
@@ -54,9 +55,9 @@ server.test.js # Testes unitários para o servidor usando Jest
 
 ## Configuração do Projeto
 
+
 ### Passo 1: Clonar o Repositório
 
-```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
