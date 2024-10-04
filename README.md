@@ -66,7 +66,7 @@ cd seu-repositorio
 1. Crie um banco de dados PostgreSQL
 2. Configure o arquivo .env com a URL de conexão do banco de dados
 
-DATABASE_URL="postgresql://postgres:415232@localhost:5432/API_CRUD?schema=public"
+DATABASE_URL="postgresql://postgres:@localhost:5432/API_CRUD?schema=public"
 
 ### Passo 3: Instalar as Dependências do Backend
 
